@@ -12,7 +12,7 @@ export default function Projects() {
         {/* Project 1 - Simple Calculator */}
         <div className="bg-white text-black rounded-lg shadow-md p-6 transition-all transform hover:scale-105 hover:shadow-xl hover:bg-[#f3e5f5]">
           <Image 
-            src="/simple-calculator.png" 
+            src="/calculator.png" 
             alt="Simple Calculator" 
             width={300}
             height={300}
@@ -200,6 +200,31 @@ export default function Projects() {
             </p>
             <a 
               href="https://github.com/yourusername/beauty-store" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-[#6a1b9a] font-semibold hover:underline"
+            >
+              View on GitHub
+            </a>
+          </div>
+        </div>
+
+        {/* Project 9 - Blooming Petals */}
+        <div className="bg-white text-black rounded-lg shadow-md p-6 transition-all transform hover:scale-105 hover:shadow-xl hover:bg-[#f3e5f5]">
+          <Image 
+            src="/roses.png" 
+            alt="Blooming Petals" 
+            width={300}
+            height={300}
+            className="w-full h-48 object-cover rounded-lg mb-4 transition-all"
+          />
+          <div className="text-center">
+            <h3 className="text-xl font-semibold mb-2">Blooming Petals</h3>
+            <p className="text-gray-600 mb-4">
+              A beautiful collection of handpicked flowers to celebrate love and joy with vibrant colors and delightful fragrances.
+            </p>
+            <a 
+              href="https://github.com/yourusername/blooming-petals" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-[#6a1b9a] font-semibold hover:underline"
