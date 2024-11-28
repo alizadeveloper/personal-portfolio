@@ -20,8 +20,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #1fa2ff 0%,
+    #12d8fa 51%,
+    #1fa2ff 100%
+  );
+  padding: 0.5rem 1rem;
+  text-align: center;
+  transition: background-position 0.5s; /* 'transition' میں semicolon شامل کیا گیا */
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-grad:hover { /* ':hover' میں space کو ہٹایا گیا */
+  background-position: right center;
+  color: #ffffff;
 }
